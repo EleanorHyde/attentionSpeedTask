@@ -1,0 +1,32 @@
+[
+   {
+      "customProperties":[
+         {
+            "propertyName":"stimuliPath",
+            "propertyType":"Path"
+         },
+         {
+            "propertyName":"stimuliFile",
+            "propertyType":"Resource"
+         },
+         {
+            "propertyName":"showKeys",
+            "propertyType":"Boolean"
+         },
+         {
+            "propertyName":"fixationDuration"
+         },
+         {
+            "propertyName":"encodingDuration"
+         },
+         {
+            "propertyName":"interStimulusDuration"
+         },
+         {
+            "propertyName":"blankDuration"
+         }
+      ],
+      "customType":"attentionSpeed",
+      "description":"Speed of Attention Task"
+   }
+]

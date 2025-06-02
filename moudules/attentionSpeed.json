@@ -1,0 +1,371 @@
+{
+    "allowEscapeKey": true,
+    "author": "Tatool Web",
+    "export": [
+        {
+            "$$hashKey": "object:2561",
+            "auto": true,
+            "enabled": true,
+            "mode": "upload"
+        },
+        {
+            "$$hashKey": "object:2459",
+            "enabled": true,
+            "mode": "download"
+        }
+    ],
+    "exportDelimiter": ",",
+    "exportFormat": "long",
+    "fullscreen": true,
+    "label": "attentionSpeedTask",
+    "moduleBackground": "",
+    "moduleForwardUrl": "",
+    "moduleHierarchy": {
+        "children": [
+            {
+                "children": [
+                    {
+                        "blankInterval": 0,
+                        "customType": "tatoolInstruction",
+                        "fixationInterval": 0,
+                        "images": {
+                            "propertyType": "ArrayResource",
+                            "propertyValue": []
+                        },
+                        "name": "practice_instruction",
+                        "pages": {
+                            "propertyType": "ArrayResource",
+                            "propertyValue": [
+                                {
+                                    "project": {
+                                        "access": "public",
+                                        "name": "tatool"
+                                    },
+                                    "resourceName": "attentionSpeed_01.htm",
+                                    "resourceType": "instructions"
+                                },
+                                {
+                                    "project": {
+                                        "access": "public",
+                                        "name": "tatool"
+                                    },
+                                    "resourceName": "attentionSpeed_02.htm",
+                                    "resourceType": "instructions"
+                                },
+                                {
+                                    "project": {
+                                        "access": "public",
+                                        "name": "tatool"
+                                    },
+                                    "resourceName": "all_begin_practice.htm",
+                                    "resourceType": "instructions"
+                                }
+                            ]
+                        },
+                        "project": {
+                            "access": "public",
+                            "name": "tatool"
+                        },
+                        "tatoolType": "Executable"
+                    },
+                    {
+                        "blankInterval": 0,
+                        "countdown": "3",
+                        "customType": "tatoolCountdown",
+                        "fixationInterval": 0,
+                        "goText": "Go!",
+                        "hideMouseCursor": true,
+                        "interval": "500",
+                        "name": "countdown",
+                        "project": {
+                            "access": "public",
+                            "name": "tatool"
+                        },
+                        "tatoolType": "Executable"
+                    },
+                    {
+                        "children": [
+                            {
+                                "blankDuration": "200",
+                                "blankInterval": "",
+                                "customType": "attentionSpeed",
+                                "encodingDuration": "1000",
+                                "fixationDuration": "500",
+                                "fixationInterval": "",
+                                "interStimulusDuration": "500",
+                                "name": "practice_slow",
+                                "project": {
+                                    "access": "public",
+                                    "name": "tatool"
+                                },
+                                "showKeys": {
+                                    "propertyType": "Boolean",
+                                    "propertyValue": false
+                                },
+                                "status": {
+                                    "feedbackPanel": false
+                                },
+                                "stimuliFile": {
+                                    "project": {
+                                        "access": "public",
+                                        "name": "tatool"
+                                    },
+                                    "propertyType": "Resource",
+                                    "resourceName": "attention_speed_practice_slow.csv",
+                                    "resourceType": "stimuli"
+                                },
+                                "stimuliPath": {
+                                    "project": {
+                                        "access": "public",
+                                        "name": "tatool"
+                                    },
+                                    "propertyType": "Path",
+                                    "resourceName": "",
+                                    "resourceType": "stimuli"
+                                },
+                                "tatoolType": "Executable"
+                            }
+                        ],
+                        "handlers": [],
+                        "iterator": {
+                            "customType": "ListIterator",
+                            "numIterations": 2,
+                            "order": "sequential"
+                        },
+                        "label": "practice slow",
+                        "name": "m9rrbeyvf1j00000",
+                        "tatoolType": "List"
+                    },
+                    {
+                        "blankInterval": 0,
+                        "customType": "tatoolInstruction",
+                        "fixationInterval": 0,
+                        "images": {
+                            "propertyType": "ArrayResource",
+                            "propertyValue": []
+                        },
+                        "name": "test_instruction",
+                        "pages": {
+                            "propertyType": "ArrayResource",
+                            "propertyValue": [
+                                {
+                                    "project": {
+                                        "access": "public",
+                                        "name": "tatool"
+                                    },
+                                    "resourceName": "attentionSpeed_03.htm",
+                                    "resourceType": "instructions"
+                                }
+                            ]
+                        },
+                        "project": {
+                            "access": "public",
+                            "name": "tatool"
+                        },
+                        "tatoolType": "Executable"
+                    },
+                    {
+                        "children": [
+                            {
+                                "blankDuration": "200",
+                                "blankInterval": "",
+                                "customType": "attentionSpeed",
+                                "encodingDuration": "50",
+                                "fixationDuration": "500",
+                                "fixationInterval": "",
+                                "interStimulusDuration": "50",
+                                "name": "practice_fast",
+                                "project": {
+                                    "access": "public",
+                                    "name": "tatool"
+                                },
+                                "showKeys": {
+                                    "propertyType": "Boolean",
+                                    "propertyValue": false
+                                },
+                                "status": {
+                                    "feedbackPanel": false
+                                },
+                                "stimuliFile": {
+                                    "project": {
+                                        "access": "public",
+                                        "name": "tatool"
+                                    },
+                                    "propertyType": "Resource",
+                                    "resourceName": "attention_speed_practice_fast.csv",
+                                    "resourceType": "stimuli"
+                                },
+                                "stimuliPath": {
+                                    "project": {
+                                        "access": "public",
+                                        "name": "tatool"
+                                    },
+                                    "propertyType": "Path",
+                                    "resourceName": "",
+                                    "resourceType": "stimuli"
+                                },
+                                "tatoolType": "Executable"
+                            }
+                        ],
+                        "handlers": [],
+                        "iterator": {
+                            "customType": "ListIterator",
+                            "numIterations": 2,
+                            "order": "sequential"
+                        },
+                        "label": "practice fast",
+                        "name": "2xb0eyjf5z000000",
+                        "tatoolType": "List"
+                    },
+                    {
+                        "blankInterval": 0,
+                        "customType": "tatoolInstruction",
+                        "fixationInterval": 0,
+                        "images": {
+                            "propertyType": "ArrayResource",
+                            "propertyValue": []
+                        },
+                        "name": "itxfqm8icg000000",
+                        "pages": {
+                            "propertyType": "ArrayResource",
+                            "propertyValue": [
+                                {
+                                    "project": {
+                                        "access": "public",
+                                        "name": "tatool"
+                                    },
+                                    "resourceName": "attentionSpeed_04.htm",
+                                    "resourceType": "instructions"
+                                },
+                                {
+                                    "project": {
+                                        "access": "public",
+                                        "name": "tatool"
+                                    },
+                                    "resourceName": "attentionSpeed_05.htm",
+                                    "resourceType": "instructions"
+                                }
+                            ]
+                        },
+                        "project": {
+                            "access": "public",
+                            "name": "tatool"
+                        },
+                        "tatoolType": "Executable"
+                    },
+                    {
+                        "blankInterval": 0,
+                        "countdown": "3",
+                        "customType": "tatoolCountdown",
+                        "fixationInterval": 0,
+                        "goText": "Go!",
+                        "hideMouseCursor": true,
+                        "interval": "500",
+                        "name": "countdown",
+                        "project": {
+                            "access": "public",
+                            "name": "tatool"
+                        },
+                        "tatoolType": "Executable"
+                    },
+                    {
+                        "children": [
+                            {
+                                "blankDuration": "200",
+                                "blankInterval": "",
+                                "customType": "attentionSpeed",
+                                "encodingDuration": "50",
+                                "fixationDuration": "500",
+                                "fixationInterval": "",
+                                "interStimulusDuration": "50",
+                                "name": "test",
+                                "project": {
+                                    "access": "public",
+                                    "name": "tatool"
+                                },
+                                "showKeys": {
+                                    "propertyType": "Boolean",
+                                    "propertyValue": false
+                                },
+                                "stimuliFile": {
+                                    "project": {
+                                        "access": "public",
+                                        "name": "tatool"
+                                    },
+                                    "propertyType": "Resource",
+                                    "resourceName": "attention_speed_test.csv",
+                                    "resourceType": "stimuli"
+                                },
+                                "stimuliPath": {
+                                    "project": {
+                                        "access": "public",
+                                        "name": "tatool"
+                                    },
+                                    "propertyType": "Path",
+                                    "resourceName": "",
+                                    "resourceType": "stimuli"
+                                },
+                                "tatoolType": "Executable"
+                            }
+                        ],
+                        "handlers": [],
+                        "iterator": {
+                            "customType": "ListIterator",
+                            "numIterations": 30,
+                            "order": "sequential"
+                        },
+                        "label": "test",
+                        "name": "0mtb564jmyce0000",
+                        "tatoolType": "List"
+                    },
+                    {
+                        "blankInterval": 0,
+                        "customType": "tatoolInstruction",
+                        "fixationInterval": 0,
+                        "images": {
+                            "propertyType": "ArrayResource",
+                            "propertyValue": []
+                        },
+                        "name": "instruction_end_of_task",
+                        "pages": {
+                            "propertyType": "ArrayResource",
+                            "propertyValue": [
+                                {
+                                    "project": {
+                                        "access": "public",
+                                        "name": "tatool"
+                                    },
+                                    "resourceName": "all_end_of_task.htm",
+                                    "resourceType": "instructions"
+                                }
+                            ]
+                        },
+                        "project": {
+                            "access": "public",
+                            "name": "tatool"
+                        },
+                        "tatoolType": "Executable"
+                    }
+                ],
+                "handlers": [],
+                "iterator": {
+                    "customType": "ListIterator",
+                    "numIterations": 1,
+                    "order": "sequential"
+                },
+                "label": "Attention Speed",
+                "name": "w6wfb4yfpw000000",
+                "tatoolType": "List"
+            }
+        ],
+        "iterator": {
+            "customType": "ListIterator",
+            "numIterations": 1,
+            "order": "sequential"
+        },
+        "label": "Task List",
+        "tatoolType": "List"
+    },
+    "moduleMaxSessions": null,
+    "name": "attentionSpeed"
+}
